@@ -7,7 +7,7 @@
 // @match       https://pro.twitter.com/*
 // @match       https://pro.x.com/*
 // @match       https://x.com/*
-// @version     1.0.23
+// @version     1.0.24
 // @author      Shapoco
 // @description 「パロディアカウント」のラベルを非表示にする
 // @run-at      document-start
@@ -52,7 +52,7 @@
       const labelSpans = Array.from(a.querySelectorAll('span')).filter(span => span.textContent == 'パロディアカウント');
       if (labelSpans.length !== 1) return;
 
-      // このリンクだけを含む要素を追う
+      // このリンクだけを含む最大の要素を非表示にする (行ごと削除)
       let div = a.parentNode;
       if (div) {
         while (div.parentNode && div.parentNode.children && div.parentNode.children.length == 1) {
