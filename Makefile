@@ -2,7 +2,7 @@
 
 TEST_PORT = 9997
 
-JS_NAME = x-parody-label-hider.js
+JS_NAME = x-parody-label-hider.user.js
 
 SRC_DIR = src
 DIST_DIR = dist
