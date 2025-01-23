@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        X Parody Label Hider
+// @name        XParodyLabelHider
 // @namespace   https://github.com/shapoco/xpro-auto-top/
 // @updateURL   https://github.com/shapoco/x-parody-label-hider/raw/refs/heads/main/dist/x-parody-label-hider.user.js
 // @downloadURL https://github.com/shapoco/x-parody-label-hider/raw/refs/heads/main/dist/x-parody-label-hider.user.js
@@ -7,7 +7,7 @@
 // @match       https://pro.twitter.com/*
 // @match       https://pro.x.com/*
 // @match       https://x.com/*
-// @version     1.0.22
+// @version     1.0.23
 // @author      Shapoco
 // @description 「パロディアカウント」のラベルを非表示にする
 // @run-at      document-start

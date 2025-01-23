@@ -1,4 +1,4 @@
-# X Parody Label Hider
+# XParodyLabelHider
 
 X (旧Twitter) の Web 版で「パロディアカウント」のラベルを非表示にします。
 
