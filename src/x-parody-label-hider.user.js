@@ -38,7 +38,7 @@
 
     // ラベル毎の処理
     processA(a) {
-      // 同じ要素に対しては3回まで処理する
+      // 既知の要素は無視する
       if (this.knownLinks.includes(a)) return;
       this.knownLinks.push(a);
 
